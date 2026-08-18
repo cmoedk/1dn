@@ -1,7 +1,7 @@
 # One Dude Nation: The World Cup Quest — Issue Tracker
 
 **This repository holds no source code.** It exists only to track bugs and ideas for
-*One Dude Nation*, a browser-based, one-finger-control soccer game. 
+*One Dude Nation*, a browser-based, one-finger-control soccer game (available at [1dn.dk](https://www.1dn.dk). 
 
 ## Filing a bug
 
