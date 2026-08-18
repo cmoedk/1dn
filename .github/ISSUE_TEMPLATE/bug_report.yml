@@ -1,0 +1,97 @@
+name: Bug report
+description: Something in the game behaves wrongly, looks wrong, or crashes.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The two fields that matter most are the **build stamp** and the
+        **steps** — a bug that can be reproduced is usually a bug that gets fixed.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did the game do?
+      placeholder: The ball rolled off the side of the pitch and the fade never ended — black screen, no restart.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+      placeholder: The ball should have dropped back in at the top and play resumed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Number them if you can. "I don't know, it just happened" is a valid answer — say so.
+      placeholder: |
+        1. Continue a saved run, World Cup group stage
+        2. Play Match
+        3. Dribble to the halfway line, then flick the ball hard to the right touchline
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: Does it happen again?
+      options:
+        - Every time
+        - Sometimes
+        - Only saw it once
+        - Haven't tried
+    validations:
+      required: true
+
+  - type: input
+    id: build
+    attributes:
+      label: Build stamp
+      description: "Splash screen, bottom-right — both lines, e.g. `v.1.0.0-beta.1 / Build 2026-08-18-14:30`"
+      placeholder: v.1.0.0-beta.1 — Build 2026-08-18-14:30
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: iPhone 13, Safari 17.4 — or Windows 11, Chrome 126
+    validations:
+      required: true
+
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where in the game
+      options:
+        - Live match
+        - Goal replay
+        - Penalty shootout
+        - Half-time / full-time break screen
+        - Splash / nation minting / character screen
+        - Qualifier hub, groups or knockout screens
+        - World Cup screens
+        - Training
+        - Settings, rosters, backup or goals screens
+        - Somewhere else / not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Screenshot, save file, or replay link
+      description: |
+        Drag a screenshot or video straight into this box.
+        A **backup file** (in-game: Settings → Backup) reproduces your exact game state.
+        A **replay link** (replay screen → gear → Share Replay) carries a whole goal inside the URL.
+      placeholder: Paste or drag things here.
+    validations:
+      required: false
