@@ -6,6 +6,18 @@ What's new in **One Dude Nation**, newest first. Format follows
 
 ## [Unreleased]
 
+## [1.0.0-beta.4] - 2026-08-21 14:03
+### Changed
+
+- You hear a defender louder when the ball goes through his legs.
+- Advance now plays every rival tie up to your own match in one press, in the play-offs and the World Cup
+  knockout alike — the way the group stage always has.
+- Qualifier screens say which **Stage** of the qualifier you are in, and a stage played over more than one
+  round names the round in its heading — "CAF Play-off Stage Round 1/2". World Cup knockout rounds keep
+  their own names.
+- The rules list describes each stage of a qualifier — what it is and how many rounds it runs over — and
+  the World Cup's own two stages are listed on its screens, its knockout bracket included.
+
 ## [1.0.0-beta.3] - 2026-08-18 14:12
 ### Added
 
